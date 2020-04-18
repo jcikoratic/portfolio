@@ -1,0 +1,9 @@
+version 1.0
+
+phases:
+    build:
+        commands:
+            -echo Nothing to do yet
+atrefacts:
+    files:
+        -enterprise.html
