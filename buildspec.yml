@@ -1,10 +1,10 @@
 version 0.1
 
 phases:
-    build:
-        commands:
-            - echo Nothing to do yet
+  build:
+    commands:
+      - echo Nothing to do yet
 atrefacts:
-    files:
-        - enterprise.html
-        - images/*       
+  files:
+    - enterprise.html
+    - images/*       
