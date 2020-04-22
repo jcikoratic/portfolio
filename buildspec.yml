@@ -6,5 +6,6 @@ phases:
       - echo Nothing to do yet
 artifacts:
   files:
-    - enterprise.html
-    - images/*       
+    - html_file/*
+    - images/*
+    - styles/*       
