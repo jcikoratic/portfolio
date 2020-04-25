@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<link rel="stylesheet" type="text/css" href="blog.css">
+<style>
+
+body{
+ font-family:sans-serif;
+ 
+}
+
+		.grid-container{
+		display: grid;
+    width : 1000px;
+		height: 500px;
+		position: relative;
+		margin-left: 20px;
+		grid-template-columns: 110px 110px 1fr 1fr 1fr 1fr 1fr;
+		grid-template-rows: 40px 40px auto auto auto ;
+		background-color : #FFFFFF;
+		color:black;
+    border:5px #D6EAF8;
+		padding:70px;
+		grid-gap:2px;
+		}
+
+		.grid-container > div{
+		text-align:center;
+		padding:20px 0;
+		display: flex;
+		justify-content:center;
+		align-items: center;
+		}
+
+		.item1{
+    background: #505160;
+		font-size:16px;
+		color: white ;
+		grid-column:1/8;
+		}
+
+		.item2{
+
+		font-size:16px;
+		color: white ;
+		grid-column:2/8;
+		}
+
+
+		.itm{
+		/* background-color:#AAB7B8;*/
+		background-color:#AEBD38;
+		color:black;
+		font-size:12px;
+		justify-content:left;
+		}
+
+
+
+		.subh1 {
+   	background: #598234;
+		font-size:12px;
+		color: white ;
+  	}
+
+	 </style>
+ </head>
+
+<body>
+	<header>
+		<h1>Agile and Digital Footprint Blast Radius</h1>
+		<h2>Non linear feedback driven model</h2>
+		<h2>Balance autonomy and alignment</h2>		
+	</header>
+<div>
+<div class="grid-container">
+<div class="item1">Enterprise Agile Model</div>
+<div class="subh1">What</div>
+<div class="itm item2">Capabilities</div>
+
+<div class="subh1">Epic</div>
+<div class="itm">Strategic Themes</div>
+<div class="itm">Lean Budgets</div>
+<div class="itm">Compliance</div>
+<div class="itm">Value Streams<br>Governance </div>
+<div class="itm">Operations</div>
+<div class="itm">TBC</div>
+
+
+<div class="subh1 itemx">Solution</div>
+<div class="itm item6">Application Stack</div>
+<div class="itm item10">Domain Design</div>
+<div class="itm item7" onclick = "architecture()">Architectural Runway</div>
+<div class="itm item9">Solution Demos</div>
+<div class="itm item9">TBC</div>
+<div class="itm item8">Economic Framework</div>
+
+<div class="subh1 itemx">Program Management</div>
+<div class="itm item11">Program Management</div>
+<div class="itm item12">Release Train</div>
+<div class="itm item13">PI Objectives</div>
+<div class="itm item14">System Demo's</div>
+<div class="itm item15">Deployment</div>
+<div class="itm item9">TBC</div>
+
+<div class="subh1 itemx">Delivery Teams</div>
+<div class="itm item16" onclick = "agile()">Agile Practices</div>
+<div class="itm item17" onclick = "DevOps()">DevOps</div>
+<div class="itm item17">Continuous Integration</div>
+<div class="itm item18">Continuous Deployment</div>
+<div class="itm item19">Continuous Testing</div>
+<div class="itm item20">Continuous Release</div>
+<br>
+
+
+<script>
+function agile() {
+     location.href = "https://agreenfrog.s3-ap-southeast-2.amazonaws.com/agile.html"
+     }
+
+function DevOps() {
+	location.href = "https://agreenfrog.s3-ap-southeast-2.amazonaws.com/DevOps.html"
+	}
+
+function architecture() {
+	location.href = "https://agreenfrog.s3-ap-southeast-2.amazonaws.com/Architecture.html"
+	}
+
+	
+
+</script>
+
+</body>
+</html>
