@@ -3,8 +3,8 @@ version: 0.2
 phases:
   build:
     commands:
-      - echo Nothing to do yetit it
+      - echo Nothing to do yet
 artifacts:
   files:
-    - 
+    - **/*
     
